@@ -4,13 +4,20 @@
   <meta charset="utf-8">
   <title>Tum Nak Thai</title>
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+  <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN: -->
+  <!-- Note: This might not be the most up to date version. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Font awesome link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Merienda|Montez|Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merienda+One|Montez|Poiret+One" rel="stylesheet">
 
   <!-- This adds the icon to the title tab -->
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
@@ -21,8 +28,6 @@
 </head>
 <body>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="assets/javascripts/menu.js"></script>
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -46,7 +51,7 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="tel:1-480-654-4225">(480) 654-4225</li>
+          <!-- <li><a href="tel:1-480-654-4225">(480) 654-4225</li> -->
           </ul>
 
 
@@ -58,42 +63,245 @@
       <h1 class="animated fadeInDown"> Menu</h1>
     </div>
 
-    <button class="accordion">Section 1</button>
-    <div class="panel">
-      <p>Lorem ipsum...</p>
+    <div class="container features">
+      <div class="row">
+
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="assets/images/chicken_pad_pe.jpg" alt="Chicken Pad Pe">
+          <br>
+          <p class="food_words"> Chicken Pad Pe</p>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="assets/images/thai_iced_coffee.jpg" alt="Thai Iced Coffee">
+          <br>
+          <p class="food_words"> Thai Iced Coffee</p>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="assets/images/chicken_satay.jpg" alt="Chicken Satay">
+          <br>
+          <p class="food_words"> Chicken Satay</p>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="assets/images/pad_thai.jpg" alt="Pad Thai">
+          <br>
+          <p class="food_words"> Pad Thai</p>
+        </div>
+
+      </div>
     </div>
 
-    <button class="accordion">Section 2</button>
+
+    <button class="accordion">Lunch Specials</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <p class="dish_name">Red Curry (Gang Ped)<span class="price">$5.95</span></p>
+      <p class="dish_description">Red curry paste (dried chili made) mixed with coconut milk, bell peppers, carrots, bamboo shoots and basil with chicken</p>
+      <p class="dish_name">Yellow Curry (Gang Ga Ree)<span class="price">$5.95</span></p>
+      <p class="dish_description">Mixture of curry paste, curry powder and coconut milk with potatoes, bell peppers, white onions, carrot and chicken</p>
+      <p class="dish_name">Pad Thai<span class="price">$5.95</span></p>
+      <p class="dish_description">Fresh rice noodles stir-fried with chicken, egg, bean sprouts and green onions and ground peanut on the side</p>
+      <p class="dish_name">Pad See Iw<span class="price">$5.95</span></p>
+      <p class="dish_description">Flat rice noodles pan fried with chicken, broccoli, carrots, egg and black soy sauce</p>
+      <p class="dish_name">Hot Basil (Pad Gra Prao)<span class="price">$5.95</span></p>
+      <p class="dish_description">Chicken stir-fried with basils, bamboo shoots, carrots, bell peppers, onions, garlic and chili</p>
+      <p class="dish_name">Garlic and Veggies (Pad Gra Tiem)<span class="price">$5.95</span></p>
+      <p class="dish_description">Chicken stir-fried with garlic, zucchini, carrots, mushrooms and green onions</p>
+      <p class="dish_name">Spicy Green Bean (Pad Prik Khing)<span class="price">$5.95</span></p>
+      <p class="dish_description">Curry paste stir-fried with beef, green beans, carrots and kaffir lime leaves</p>
+      <p class="dish_name">Pepper Steak (Pad Prik Sod)<span class="price">$5.95</span></p>
+      <p class="dish_description">Beef stir-fried with bell peppers, carrots, white onions and green onions</p>
+      <p class="dish_name">Tofu & Veggies Delight (Pad Phak Ruam)<span class="price">$5.95</span></p>
+      <p class="dish_description">Variety vegetables and tofu</p>
+      <p class="dish_name">Thai Fried Rice (Khao Pad)<span class="price">$5.95</span></p>
+      <p class="dish_description">Delight fried rice with white onions, green onions, egg and chicken</p>
     </div>
 
-    <button class="accordion">Section 3</button>
+    <button class="accordion">Appetizers</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <p class="dish_name">Chicken Satay<span class="price">$5.95</span></p>
+      <p class="dish_description">Grilled chicken, marinated in a mixture of Thai herbs and spices, served with peanut sauce and cucumber sauce</p>
+      <p class="dish_name">Fish Cake (Tod Mun Pla)<span class="price">$5.95</span></p>
+      <p class="dish_description">Fish cakes blended with curry paste and green bean, served with cucumber sauce</p>
+      <p class="dish_name">Thai Egg Roll (Por Pia Tod)<span class="price">$4.95</span></p>
+      <p class="dish_description">Deep fried rolls stuffed with vegetables and glass noodle, served with sweet and sour sauce</p>
+      <p class="dish_name">Thai Toast<span class="price">$5.95</span></p>
+      <p class="dish_description">Deep fried toasts topped with seasoned ground chicken, served with sweet and sour sauce</p>
+      <p class="dish_name">Fried Wontons<span class="price">$4.95</span></p>
+      <p class="dish_description">Crispy wontons stuffed with marinated ground chicken, served with sweet and sour sauce</p>
+      <p class="dish_name">Golden Tofu (Tao Hoo Tod)<span class="price">$4.95</span></p>
+      <p class="dish_description">Deep fried tofu served with sweet and sour sauce topped with ground peanuts</p>
+      <p class="dish_name">Thai Fresh Roll (Por Pia Sod)<span class="price">$4.95</span></p>
+      <p class="dish_description">Rice wrappers stuffed with green leaf, cabbage carrot, tofu, rice noodle and basil, served with homemade dipping sauce, topped with ground peanuts</p>
     </div>
 
-    <button class="accordion">Section 3</button>
+    <button class="accordion">Soups</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <p class="bundle_prices">
+        Chicken/Tofu/Veggie...Cup $3.75...Hot Pot $7.95
+        <br>Shrimp/Squid..............Cup $5.75...Hot Pot $9.95<br>Seafood Combination.....................Hot Pot $11.95</p>
+      <p class="dish_name">Tom Yum</p>
+      <br>
+      <p class="dish_description">Tradition spicy hot and sour soup with lemongrass, galanga, lime juice, kaffir lime leaves and mushrooms</p>
+      <p class="dish_name">Tom Kha</p>
+      <p class="dish_description">The most famous hot and sour soup with coconut milk, lemongrass, galanga, lime juice, kiffir lime leaves and mushrooms</p>
+      <p class="dish_name">Hot & Sour Soup with Tofu</p>
+      <p class="dish_description">Sliced tofu, bamboo shoot, mushrooms and eggs in the simple soup with hot and sour sauce</p>
+      <p class="dish_name">Glass Noodle Soup</p>
+      <p class="dish_description">Delight soup with chicken broth, glass noodle, chicken, mushrooms, snow peas and carrots</p>
+      <p class="dish_name">Wonton Soup</p>
+      <p class="dish_description">Clear soup with chicken broth, ground chicken wrapped in wonton skind, chicken, snow peas and carrots</p>
     </div>
 
-    <button class="accordion">Section 4</button>
+    <button class="accordion">Salads</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <p class="dish_name">Thai Northen Salad (Larb)<span class="price">$6.95</span></p>
+      <p class="dish_description">Choice of ground chicken, beef or pork with red onions, carrots, mint leaves, lettuces, lime juice, grounded roasted rice and chili flake</p>
+      <p class="dish_name">Waterfall Beef Salad (Nuea Nam Tok)<span class="price">$6.95</span></p>
+      <p class="dish_description">Grilled sliced beef with red onions, mint leaves, lettuce, lime juice, grounded roasted rice and chili flake, served with fresh lettuce</p>
+      <p class="dish_name">Tum Nak Thai Salad<span class="price">$6.95</span></p>
+      <p class="dish_description">Delightful combination of fresh lettuces, tomatoes, cucumbers, red onions, boiled egg, fried tofu, served with peanut sauce</p>
+      <p class="dish_name">Spicy Seafood Salad<span class="price">$11.95</span></p>
+      <p class="dish_description">Delightful combination of fresh lettuces, tomatoes, garlic, carrots, red onions in spice salad dressing</p>
+      <p class="dish_name">Glass Noodle Salad<span class="price">$6.95</span></p>
+      <p class="dish_description">Delicious micture of chunk chicken, shrimps, glass noodle, red onions, green onions in spicy salad dressing</p>
+      <p class="dish_name">Papaya Salad (Som Tum)<span class="price">$6.95</span></p>
+      <p class="dish_description">Seasonal Thai style salad in micture of fresh green papaya, green beans, tomatoes, carrots, chili, garlic, lime juice and peanuts</p>
     </div>
 
-    <button class="accordion">Section 5</button>
+    <button class="accordion">Curries & Special Entrees</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <p class="bundle_prices">
+        Chicken/Tofu/Veggie.....$7.95<br>Shrimp/Squid................$9.95<br>Seafood Combination...$11.95</p>
+      <p class="dish_name">Red Curry (Gang Ped)</p>
+      <p class="dish_description">Red curry paste (dried chili made) mixed with coconut milk, bell peppers, carrots, bamboo shoots and basil with a choice of meat, served with steamed white rice</p>
+      <p class="dish_name">Green Curry (Gang Keaw Wan)</p>
+      <p class="dish_description">RGreen curry paste (fresh chili made) mixed with coconut milk, bell peppers, carrots, bamboo shoots and basil with a choice of meat, served with steamed white rice</p>
+      <p class="dish_name">Yellow Curry (Gang Ga Ree)</p>
+      <p class="dish_description">Mixture of curry paste, curry powder and coconut milk with potatoes, bell peppers, white onions, carrot and your choice of meat, served with steamed white rice</p>
+      <p class="dish_name">Masaman Curry</p>
+      <p class="dish_description">Mixed flavors of masaman curry paste, coconut milk and peanut with potatoes, bell peppers, white onions, carrots with a choice of meat, served with steamed white rice</p>
+      <p class="dish_name">Panang Curry</p>
+      <p class="dish_description">Traditional panang curry paste mixed with coconut milk, bell peppers, kaffir lime leaves and basil with a choice of meat, served with steamed white rice</p>
+      <p class="dish_name">Pineapple Curry (Gang Sub Pa Rod)</p>
+      <p class="dish_description">Delight curry with fruits as pineapple mixed with red curry paste, coconut milk, bell peppers and basil with a choice of meat, served with steamed white rice</p>
+      <p class="dish_name">Teriyaki Dish</p>
+      <p class="dish_description">Stir-fried your choice of meat with teriyaki sauce, broccoli, carrots, pineappleas, white onions and sesame on top</p>
+      <p class="dish_name">BBQ Chicken (Gai Yang)</p>
+      <p class="dish_description">Tum Nak Thai styled grilled half chicken, serve with homemade BBQ sauce</p>
+      <p class="dish_name">Pad Ped</p>
+      <p class="dish_description">Stir-fried your choice of meat with red curry paste, coconut milk, galangal, bell peppers, basil, kaffir leaves</p>
+      <p class="dish_name">Pad Phong Kali</p>
+      <p class="dish_description">Stir-fried your choice of meat with curry powder, carrots, bell peppers, onions and egg</p>
     </div>
+
+    <button class="accordion">Stir-Fried Entrees</button>
+    <div class="panel">
+      <p class="bundle_prices">
+        Chicken/Tofu/Veggie.....$7.95<br>Shrimp/Squid................$9.95<br>Seafood Combination...$11.95</p>
+      <p class="dish_name">Hot Basil (Pad Gra Prao)</p>
+      <p class="dish_description">Your choice of meat cooked with basils, bamboo shoots, carrots, bell peppers, onions, garlic and chili in Thai style sauce, served with steamed white rice</p>
+      <p class="dish_name">Garlic & Pepper (Tod Gra Tiem Prik Thai)</p>
+      <p class="dish_description">Marinated meat with garlic and pepper, served with fresh lettuces, served with steamed white rice</p>
+      <p class="dish_name">Pra Ram</p>
+      <p class="dish_description">Steamed broccoli and your choice of meat, green beans, carrots and kaffir lime leaves, served with steamed white rice</p>
+      <p class="dish_name">Spicy Green Beans (Pad Prik Khing)</p>
+      <p class="dish_description">Curry paste stir-fried with choice of meat, green beans, carrots and kaffir leaves, served with steamed white rice</p>
+      <p class="dish_name">Ginger Plate (Pad Khing Sod)</p>
+      <p class="dish_description">Fresh gingers cooked with carrots, mushrooms, green onions, white onions, bell peppers and a choice of meat, served with steamed white rice</p>
+      <p class="dish_name">Pepper Steak (Pad Prik Sod)</p>
+      <p class="dish_description">Choice of meat with bell peppers, carrots, white onions and green onions, served with steamed white rice</p>
+      <p class="dish_name">Broccoli Plate (Pad Broccoli)</p>
+      <p class="dish_description">Simple stir-fried with a choice of meat, broccoli and carrots, served with steamed white rice</p>
+      <p class="dish_name">Snow Pea Delight (Pad Snow Pea)</p>
+      <p class="dish_description">Delight your choice of meat with snow peas, mushrooms, carrots and onions in the delicious stir-fried sauce, served with steamed white rice</p>
+      <p class="dish_name">Sweet & Sour Plate</p>
+      <p class="dish_description">Mixture of pineapples, bell peppers, carrots, white onions and deep-fried choice of meat in a homemade weet and sour sauce, served with steamed white rice</p>
+      <p class="dish_name">Cashew Nut Plate (Pad Med Ma Muang)</p>
+      <p class="dish_description">Stir-fried cashew nuts with carrots, bell peppers, onions and choice of meat, served with steamed white rice</p>
+      <p class="dish_name">Veggie Delight (Pad Med Ma Muang)</p>
+      <p class="dish_description">Variety vegetables and a choice of meat, served with steamed white rice</p>
+      <p class="dish_name">Garlic & Veggies (Pad Gra Tiem)</p>
+      <p class="dish_description">Choice of meat stir-fried with garlic, zucchini, carrots, mushrooms and green onions, served with steamed white rice</p>
+    </div>
+
+    <button class="accordion">Noodles & Rice</button>
+    <div class="panel">
+      <p class="bundle_prices">
+        Chicken/Tofu/Veggie.....$7.95<br>Shrimp/Squid................$9.95<br>Seafood Combination...$11.95</p>
+      <p class="dish_name">Pad Thai</p>
+      <p class="dish_description">Fresh rice noodle stir-fried with your choice of meat, egg, bean sprouts and green onions, ground peanut on side</p>
+      <p class="dish_name">Pad See Iw</p>
+      <p class="dish_description">Flat rice noodles pan fried with a choice of meat, broccoli, carrots, egg and black soy sauce</p>
+      <p class="dish_name">Lad Na</p>
+      <p class="dish_description">Fresh flat noodles pan fried and topped with broccoli, carrots and your choice of meat in smooth brown gravy</p>
+      <p class="dish_name">Pad Kee Mao</p>
+      <p class="dish_description">Spicy stir-fried noodles with hot basil flavor of basils, bell peppers, bamboo shoots, carrots, white onions, egg and your choice of meat</p>
+      <p class="dish_name">Thai Fried Rice (Khao Pad)</p>
+      <p class="dish_description">Delight fried rice with white onions, green onions, egg and your choice of meat</p>
+      <p class="dish_name">Thai Spicy Fried Rice (Khao Pad Kee Mao)</p>
+      <p class="dish_description">Spicy stir-fried rice with flavor of basils, bell peppers, carrots, bamboo shoots and your choice of meat</p>
+      <p class="dish_name">Pineapple Fried Rice (Khao pad Sup Pa Rod)</p>
+      <p class="dish_description">Our style of fried rice with pineapples and curry powder flavor with white onions, carrots, cashew nuts and your choice of meat</p>
+    </div>
+
+    <button class="accordion">Sides</button>
+    <div class="panel">
+      <p class="dish_name">Steamed White Rice (Jasmine Rice)<span class="price">$1.00</span></p>
+      <p class="dish_name">Steamed Brown Rice<span class="price">$1.50</span></p>
+      <p class="dish_name">Steamed Sweet Sticky Rice<span class="price">$2.00</span></p>
+      <p class="dish_name">Peanut Sauce<span class="price">$1.00</span></p>
+    </div>
+
+    <button class="accordion">Desserts & Beverages</button>
+    <div class="panel">
+      <p class="dish_name">Coconut Ice Cream topped with Ground Peanut<span class="price">$2.00</span></p>
+      <p class="dish_name">Fried Banana topped with Honey and Sesame<span class="price">$3.50</span></p>
+      <p class="dish_name">Sweet Sticky Rice with Mango<span class="price">$4.50</span></p>
+      <p class="dish_name">Coconut Custard with Sweet and Sticky Rice<span class="price">$4.50</span></p>
+      <p class="dish_name">Fried Banana with Coconut Ice Cream<span class="price">$4.50</span></p>
+      <p class="dish_name">Thai Iced Tea Topped with Ice Cream<span class="price">$2.00</span></p>
+      <p class="dish_name">Thai Iced Coffee Topped with Cream<span class="price">$2.00</span></p>
+    </div>
+
+    <div class="container features">
+      <div class="row">
+
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="assets/images/fried_wontons.jpg" alt="Fried Wontons">
+          <br>
+          <p class="food_words"> Fried Wontons</p>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="assets/images/pad_kee_mao.jpg" alt="Pad Kee Mao">
+          <br>
+          <p class="food_words"> Pad Kee Mao</p>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="assets/images/pad_see_ew_tofu.jpg" alt="Pad See Ew Tofu">
+          <br>
+          <p class="food_words"> Pad See Ew with Tofu</p>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="assets/images/pad_pe_chicken.jpg" alt="Pad Pe Chicken">
+          <br>
+          <p class="food_words"> Pad Pe with Chicken</p>
+        </div>
+
+      </div>
+    </div>
+
 
     <footer class="container-fluid" >
       <p>© Tum Nak Thai 2018
         <br>
-        Designed & Built by <a href="https://lindseyrugg.github.io/">Lindsey Rugg</a></p>
+        Designed & Built by <a href="https://lindseyrugg.github.io/" target="_blank">Lindsey Rugg</a></p>
         <ul>
-          <li><a href="#about">About</a></li>
+          <li><a href="index.html">About</a></li>
           <li><a href="location.html">Location</a></li>
         </ul>
       </footer>
@@ -102,5 +310,8 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+      <script src="assets/javascripts/menu.js"></script>
     </body>
+
     </html>
