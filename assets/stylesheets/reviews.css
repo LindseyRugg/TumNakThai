@@ -44,6 +44,8 @@ footer {
 	position: absolute;
 	width: 100%;
 	height: auto;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
 }
 
 footer ul li {

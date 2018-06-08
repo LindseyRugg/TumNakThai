@@ -53,10 +53,10 @@ body {
 }
 
 .features p {
-	font-family: 'Muli' 'sans-serif';
 	text-align: center;
+	font-family: 'Merienda One', cursive;
 	color:#323232;
-	font-size: 1.2em;
+	font-size: 20px;
 	padding-top: 10px;
 }
 
@@ -66,6 +66,8 @@ footer {
 	position: absolute;
 	width: 100%;
 	height: auto;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
 }
 
 footer ul li {

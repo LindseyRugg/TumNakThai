@@ -52,6 +52,7 @@ body {
 
 .active, .accordion:hover {
     background-color: #ccc;
+		color: black;
 }
 
 .panel {
@@ -97,6 +98,10 @@ body {
 	border-style: double;
 }
 
+.features {
+	padding-top: 3em;
+}
+
 
 
 footer {
@@ -104,6 +109,8 @@ footer {
 	position: absolute;
 	width: 100%;
 	height: auto;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
 }
 
 footer ul li {
@@ -111,7 +118,6 @@ footer ul li {
 	list-style: none;
 	padding: 2%;
 	float: right;
-
 }
 
 footer p {
