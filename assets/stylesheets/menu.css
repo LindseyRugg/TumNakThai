@@ -1,0 +1,147 @@
+body {
+	background-color: #D68910;
+  padding-top: 50px;
+}
+
+.navbar-brand {
+	font-family: 'Montez', cursive;
+}
+
+.navbar-nav {
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+.banner {
+	background-image:url('../images/buddha3.jpg');
+	padding: 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin-top: -40px;
+	margin-bottom: 30px;
+	background-attachment: fixed;
+	background-position:  center -238px;
+}
+.banner h1 {
+	position: absolute;
+  text-align: right;
+	top:18;
+	left:0;
+	padding-left: 20px;
+  font-family: 'Montez', cursive;
+  font-size: 10vw;
+	color: #F7FAFE;
+  font-size: 10vw;
+}
+
+
+.accordion {
+    background-color: #D68910;
+		font-family: 'Poiret One', cursive;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+		color: black;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #323232;
+		color: white;
+    overflow: hidden;
+}
+
+.accordion .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.food_words {
+	font-family: 'Merienda One', cursive;
+	text-align: center;
+}
+
+.dish_name {
+	/* font-family: 'Poiret One', cursive; */
+}
+
+.dish_description {
+	/* font-family: 'Merienda', cursive; */
+	border-bottom-style: double;
+}
+
+.price {
+	float: right;
+}
+
+.bundle_prices {
+	float: right;
+	border-style: double;
+}
+
+.features {
+	padding-top: 3em;
+}
+
+
+
+footer {
+	background-color: #C0392B;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 2%;
+	float: right;
+}
+
+footer p {
+	float: left;
+	padding: 2%;
+}
+
+footer a,
+footer p {
+
+	color:#fff;
+	vertical-align: middle;
+
+
+}
+
+/********************
+MEDIA QUERIES
+********************/
+@media screen and (max-width: 776px) {
+	.features img {
+		max-width: 90%;
+		margin: auto;
+	}
+
+
+}
