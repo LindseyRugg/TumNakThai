@@ -1,106 +1,262 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
+<!-- Head: -->
 <head>
+
   <meta charset="utf-8">
-  <title>Tum Nak Thai</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Font awesome link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CDN: -->
+  <!-- Note: This might not be the most up to date version. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Merienda|Montez|Poiret+One" rel="stylesheet">
 
   <!-- This adds the icon to the title tab -->
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
 
-  <link rel="stylesheet" href="assets/stylesheets/main.css" />
 
-  <link rel="stylesheet" type="text/css" href="assets/stylesheets/animate.css">
+  <!-- Link to CSS for styling: -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+
+  <title>Lindsey's Portfolio</title>
+
 </head>
+
+
+
+<!-- Body: -->
 <body>
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
+
+  <!-- <script src="/Users/lindseyrugg/Desktop/LindseyRugg.github.io/styles.js"></script> -->
+
+
+  <nav class="navbar navbar-default">
+    <div id="navbar" class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Tum Nak Thai</a>
+        <a class="navbar-brand" href="#intro">LR</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="reviews.html">Reviews</a></li>
-          <li><a href="contact.html">Contact</a></li>
+
+        <!-- <form class="navbar-form navbar-left">
+        <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button> -->
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a class="scrollable" href="#about">About Me</a></li>
+      <li><a class="scrollable" href="#skills">Skills</a></li>
+      <li><a class="scrollable" href="#facts">Facts</a></li>
+      <li><a class="scrollable" href="#projects">Projects</a></li>
+      <li><a class="scrollable" href="#contact">Contact</a></li>
+      <li><a class="scrollable" href="LindseyRuggResume2018.pdf" target="_blank">Resume</a></li>
+    </ul>
+  </li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+
+
+<div id="intro" class="intro_wrap">
+  <div id="topcontent">
+    <div class="container">
+      <div id="hello" class="row">
+        <h1 style="font-size:8vw">Hello<span class="color">.</span>
+          <br>
+          I am<br>
+          Lindsey
+        </h1>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+      <div id="profile_pic" class="col-md-3" class="aside">
+        <img class="img-responsive img-circle profile" src="assets/images/portfolio_pic1.png" alt="Lindsey Rugg" style="width:100%">
+      </div>
+      <div id="about" class="col-md-9" class="aside">
+        <div class="container">
+          <div class="cloud_pic" class="hidden-lg-down">
+            <img src="assets/images/cloud.png" alt="cloud" style="width:70%">
+          </div>
+          <div id="display_phone" class="centered">
+            <!-- class="d-md-none d-lg-none d-xl-none" -->
+            <p>I'm a developer based out of sunny Gilbert, Arziona.   Recently venturing into the <span class="wild">wild</span> and <span class="wonderful">wonderful</span> world of <strong>     full-stack web development</strong>. I have been in the customer service and sales industry for over 10 years. Early in 2018, I decided that I wanted to challenge myself in my work life and to do that I would need to learn a new skill. So, I dove straight into web development and I haven't looked back. I'm a lover of technology, books, food, and the beach. Most of all I am a <strong>passionate learner</strong>. I hope you enjoy your time browsing my portfolio and if you have any questions, head down to the bottom of the page and drop me a line.
+            </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<!-- skills section -->
+<div id="midcontent">
+  <div id="skills" class="page-header">
+    <div class="container">
+      <div class="panel-heading">
+        <div class="col-md-12 col-sm-12">
+          <h3>Mad Skills: <small></small></h3>
+        </div>
+      </div>
+      <div class="col-md-12 col-sm-12">
+        <ul class="list-inline">
+          <li>Ruby | <img src ="assets/images/Ruby.png" style="height: 35px; width: 35px;"></li>
+          <li>Rails | <img src ="assets/images/Rails.png" style="height: 40px; width: 40px;"></li>
+          <li>HTML | <img src ="assets/images/HTML.png" style="height: 55px; width: 55px;"></li>
+          <li>CSS | <img src ="assets/images/CSS.png" style="height: 35px; width: 35px;"></li>
+          <li>JavaScript | <img src ="assets/images/javascript.png" style="height: 35px; width: 35px;"></li>
+          <li>Bootstrap | <img src ="assets/images/Bootstrap.png" style="height: 40px; width: 40px;"></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <!-- <li><a href="tel:1-480-654-4225" >(480) 654-4225</li> -->
-          </ul>
+      </div>
+    </div>
+    <div id="skill_paragraph" class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 col-sm-12">
+        <p>Ruby, Rails, and Javascript are just a few of the skills I possess. I strive to create beautiful, intuitive, and responsive webpages that are user friendly and fast. The page you are viewing was built by me from scratch using primarily Bootstrap and CSS and isn't based on any sort of template. Go ahead and check out some of my other projects below. I would love to help you make something special.
+        </p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Facts Section -->
+<div class="conatiner">
+  <div class="row alt">
+    <div id="verticaltext" class="panel-heading col-md-12">
+      <h3>Random Facts:</h3>
+    </div>
+    <div class="row alt">
+      <div id="facts" class="col-md-4 col-sm-11 text-middle">
+        <ul class="ul">
+          <li>I love to <a href="https://www.goodreads.com/atlasshrugged17/" target="_blank">read</a></li>
+          <li>I drink a lot of tea</li>
+          <li>I love interior design</li>
+          <li>I love to cook (and eat)</li>
+          <li>I like to lounge by water</li>
+          <li>I do that  <a href="https://www.instagram.com/atlasshrugged17/" target="_blank">Instagram</a> thing</li>
+          <li>I want to travel everywhere</li>
+          <li>I like to help things grow</li>
+        </ul>
+      </div>
+      <div id="img-1" class="col-md-7 col-sm-12">
+        <img class="img-responsive" src="assets/images/cartoon.png" alt="Coding Cartoon">
+      </div>
+    </div>
+  </div>
+</div>
 
 
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
 
-    <div id="home" class="banner">
-      <h1 class="animated fadeInDown"> Tum Nak Thai</h1>
+<!-- Projects Section -->
+<div id="bottomcontent">
+  <div class="container">
+    <div id="projects" class="page-header">
+      <h3>Projects: <small></small></h3>
     </div>
 
-    <div class="container-fluid mission">
-      <div  id="about" class="row">
-        <h3>   You are invited to come enjoy our beautifully prepared authentic Thai food.
-          <br> We feature exquisite Thai flavors in all of our hand crafted dishes. Our chef prepares each item fresh with impeccable technique.
-          <br>
-          <br>
-          Come experience the generous hospitality of Thai culture at Tum Nak Thai. </h3>
+    <div class="row">
+
+      <div class="col-md-4 col-sm-6">
+        <div class="pic">
+          <img width="295" height="295" src="assets/images/twitter.png" alt="twitter icon" class="thumbnail">
+          <div class="middle">
+            <div class="link"><a href="https://github.com/LindseyRugg/twitter_project" target="_blank">View Github</a></div>
+          </div>
+        </div>
+        <div class="caption">
+          <h3><a href="https://github.com/LindseyRugg/twitter_project" target="_blank">Twitter Lookalike</a></h3>
+          <p>A stripped down version of Twitter's main features that I replicated using Ruby on Rails and a little bit of Javascript. It allows users to create a profile, follow other users and create searchable hashtags.</p>
         </div>
       </div>
 
-      <div class="container features">
-        <div class="row">
-
-          <div class="col-xs-12 col-sm-4">
-            <img class="img-responsive" src="assets/images/pad_kee_mao_w_shrimp.jpg" alt="Pad Kee Mao 1/ Shrimp">
-            <br>
-            <p> The freshest locally sourced ingredients.</p>
+      <div class="col-md-4 col-sm-6">
+        <div class="pic">
+          <img width="295" height="295" src="assets/images/open.jpg" alt="Thai Food" class="thumbnail">
+          <div class="middle">
+            <div class="text"><a href="https://github.com/LindseyRugg/TumNakThai" target="_blank">View Github</a></div>
           </div>
-
-          <div class="col-xs-12 col-sm-4">
-            <img class="img-responsive" src="assets/images/tofu_spring_rolls.jpg">
-            <br>
-            <p> A perfect environment to meet with a friend or loved one and enjoy a meal.</p>
-          </div>
-
-          <div class="col-xs-12 col-sm-4">
-            <img class="img-responsive" src="assets/images/yellow_beef_curry.jpg">
-            <p> Quality hand-crafted eats made with the greatest of care.</p>
-          </div>
-
+        </div>
+        <div class="caption">
+          <h3><a href="https://github.com/LindseyRugg/TumNakThai" target="_blank">Restaurant Website</h3>
+          <p>A webiste that I built using HTML5, CSS and a little bit of JavaScript for a Restaurant that doesn't have a web presence. It shows visitors everything they need to know, including menu and contact information.</p>
         </div>
       </div>
 
-      <footer class="container-fluid" >
-        <p>© Tum Nak Thai 2018
-          <br>
-          Designed & Built by <a href="https://lindseyrugg.github.io/" target="_blank">Lindsey Rugg</a></p>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="contact.html">Location</a></li>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="pic">
+          <img src="#" alt="example pic" class="thumbnail">
+          <div class="middle">
+            <div class="text"><a href="#" target="_blank">View Github</a></div>
+          </div>
+        </div>
+        <div class="caption">
+          <h3>Example App</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+</body>
+
+
+<!-- Footer: -->
+<footer>
+  <div id="contact">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <span>
+          <ul class="nav nav-pills">
+            <li><a href="mailto:lindseywrugg@gmail.com">Contact me | <span class="glyphicon glyphicon-envelope"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/lindsey-rugg-467595160/" target="_blank">LinkedIn | <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/2000px-Linkedin_icon.svg.png" width="15" alt="linkedin icon"/> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/LindseyRugg" target="_blank">Github | <image src="https://image.flaticon.com/icons/svg/25/25231.svg" width="15" alt="github icon" /><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
           </ul>
-        </footer>
+        </span>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12 col-sm-12" class="centered">
+        <p>By Lindsey Rugg</p>
+        <br>
+        <div>© 2018</div>
+      </div>
+    </div>
+  </div>
+</footer>
+<br>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-      </body>
-      </html>
+<!-- Bootstrap: -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
